@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Chart3DLib.Chart3D.resources
+obj\Debug\Chart3DLib.csproj.GenerateResource.Cache
+bin\Debug\Chart3DLib.dll
+bin\Debug\Chart3DLib.pdb
+obj\Debug\Chart3DLib.dll
+obj\Debug\Chart3DLib.pdb
+bin\Release\Chart3DLib.dll
+bin\Release\Chart3DLib.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Chart3DLib.Chart3D.resources
+obj\Release\Chart3DLib.csproj.GenerateResource.Cache
+obj\Release\Chart3DLib.dll
+obj\Release\Chart3DLib.pdb

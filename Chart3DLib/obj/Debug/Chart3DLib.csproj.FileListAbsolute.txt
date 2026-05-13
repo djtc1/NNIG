@@ -1,0 +1,8 @@
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\bin\Debug\Chart3DLib.dll
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\bin\Debug\Chart3DLib.pdb
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.csproj.AssemblyReference.cache
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.Chart3D.resources
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.csproj.GenerateResource.cache
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.dll
+C:\Users\Daniel Carrilho\Documents\daniel\MyWork\project_done\NNIG_NeuralNetwork_Software\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.pdb

@@ -1,0 +1,14 @@
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\bin\Release\Chart3DLib.dll
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\bin\Release\Chart3DLib.pdb
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Release\Chart3DLib.Chart3D.resources
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Release\Chart3DLib.csproj.GenerateResource.Cache
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Release\Chart3DLib.dll
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Release\Chart3DLib.pdb
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\bin\Debug\Chart3DLib.dll
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\bin\Debug\Chart3DLib.pdb
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.Chart3D.resources
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.csproj.GenerateResource.Cache
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.dll
+C:\Documents and Settings\acorreia\My Documents\Visual Studio 2005\Projects\NNIG_NeuralNetwork_Software_Fevereiro\Chart3DLib\obj\Debug\Chart3DLib.pdb

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2uIQAAAAAAADYAAAAoAAAAEgAAAJkAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODgAAAA
+        AAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4OAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4AAAAAAAAODg4ODg4ODg4ODg
+        4ODg4ODg4AAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AAA
+        AODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODgAAAAAAAA4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAA4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4OAAAAAAAADg4ODg4ODg4ODg4OAAAAAAAADg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4AAAAODg4ODg4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4OAA
+        AAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAA4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4AAAAAAAAODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4ODg4AAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg
+        4ODg4OAAAADg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4AAAAODg4ODg
+        4AAAAODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODgAAAA
+        4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAADg4OAA
+        AAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAODg4AAAAODg
+        4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4OAAAAAAAADg4ODg4ODg4OAAAAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4ODg4AAAAODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        AAAA4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4OAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg
+        4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4AAAAAAAAODg4ODg4ODg4ODg4ODg4ODg4AAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODgAAAA4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4OAA
+        AADg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4AAAAODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODgAAAAAAAA4ODg
+        4ODg4ODg4ODg4ODg4ODgAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4OAAAAAAAADg4ODg
+        4ODg4ODg4OAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4AAAAODg4ODg4ODg
+        4ODg4AAAAODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4AAAAODg4AAAAAAAAAAAAODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4OAAAADg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4AAAAODg4AAAAODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODgAAAA4ODgAAAA4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4AAAAAAA
+        AODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAA
+        4ODgAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4OAAAADg4ODg
+        4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4AAAAODg4ODg4AAAAODg4ODg4AAA
+        AODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAA4ODgAAAAAAAAAAAAAAAA4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4OAAAAAAAADg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAADg4ODg4OAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAODg4AAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODgAAAA4ODg4ODgAAAA4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4OAAAADg4ODg4OAAAADg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4AAAAAAAAODg4AAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODgAAAA4ODg4ODgAAAAAAAA4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODgAAAA4ODg4ODgAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4OAAAADg4ODg4OAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODgAAAA4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4AAAAODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODgAAAA4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODgAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4AAAAODg4ODg
+        4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg
+        4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg
+        4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4AAAAAAAAODg4ODg4ODg4AAAAAAA
+        AODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODgAAAA4ODg4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4AAAAODg4AAAAAAAAAAAAODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4OAAAADg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4AAAAODg4AAAAODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODgAAAA4ODgAAAA4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg
+        4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODgAAAA4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4OAAAADg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4AAAAODg4ODg4ODg4ODg4ODg4AAAAODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4ODg4OAA
+        AAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAADg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAA4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg4ODg4ODg4OAAAADg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+        4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg4ODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAODg4ODg4ODg4ODg
+        4ODg4AGB4ODg4ODg4ODg4ODg4ODg4ODg4ODgAAAAAAAAAAAAAAAAAAAAAAAA4ODg4ODg4ODg4ODg4ODg
+        AYHg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgAYHg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OABgeDg4ODg4ODg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4AGB
+</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

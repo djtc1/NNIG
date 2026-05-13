@@ -1,0 +1,292 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05BFD0B7-6D23-4F52-AC33-F8E7FC96A8CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NNIG_NeuralNetworkInterface</RootNamespace>
+    <AssemblyName>NNIG_NeuralNetworkInterface</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.0.7.27673, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivationFunctionChooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivationFunctionChooser.Designer.cs">
+      <DependentUpon>ActivationFunctionChooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="allDataPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="allDataPreview.Designer.cs">
+      <DependentUpon>allDataPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackPropagation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackPropagation.Designer.cs">
+      <DependentUpon>BackPropagation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassificationMatrixEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassificationMatrixEditor.Designer.cs">
+      <DependentUpon>ClassificationMatrixEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DecisionBorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DecisionBorder.Designer.cs">
+      <DependentUpon>DecisionBorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorGraph.Designer.cs">
+      <DependentUpon>ErrorGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorSurface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorSurface.Designer.cs">
+      <DependentUpon>ErrorSurface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorSurfaceWeightsHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorSurfaceWeightsHelp.Designer.cs">
+      <DependentUpon>ErrorSurfaceWeightsHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayerProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayerProperties.Designer.cs">
+      <DependentUpon>LayerProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MLPEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MLPEditor.Designer.cs">
+      <DependentUpon>MLPEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewLayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLayerForm.Designer.cs">
+      <DependentUpon>NewLayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NNIGInputData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NNIGInputData.Designer.cs">
+      <DependentUpon>NNIGInputData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicalNeuron.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphicalNeuron.Designer.cs">
+      <DependentUpon>GraphicalNeuron.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NNArquitectureChooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NNArquitectureChooser.Designer.cs">
+      <DependentUpon>NNArquitectureChooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NNIG_Software.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NNIG_Software.Designer.cs">
+      <DependentUpon>NNIG_Software.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NNSupervisedLearningAlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NNSupervisedLearningAlg.Designer.cs">
+      <DependentUpon>NNSupervisedLearningAlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="numericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OutputPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputPreview.Designer.cs">
+      <DependentUpon>OutputPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ActivationFunctionChooser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActivationFunctionChooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="allDataPreview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>allDataPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackPropagation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BackPropagation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassificationMatrixEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClassificationMatrixEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DecisionBorder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DecisionBorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorGraph.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErrorGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorSurface.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErrorSurface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorSurfaceWeightsHelp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErrorSurfaceWeightsHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayerProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LayerProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MLPEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MLPEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLayerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewLayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NNIGInputData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NNIGInputData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicalNeuron.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GraphicalNeuron.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NNArquitectureChooser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NNArquitectureChooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NNIG_Software.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NNIG_Software.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NNSupervisedLearningAlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NNSupervisedLearningAlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputPreview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OutputPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scatterplot.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Scatterplot.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Scatterplot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scatterplot.Designer.cs">
+      <DependentUpon>Scatterplot.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\neuron_t.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\InputData.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Neural_network.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\weight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chart3DLib\Chart3DLib.csproj">
+      <Project>{7AE2EAE6-4652-4C60-98A6-A71C0FCF35FD}</Project>
+      <Name>Chart3DLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NNIG_NeuralNetworkMath\NNIG_NeuralNetworkMath.csproj">
+      <Project>{1DC57A12-5D00-4039-B033-3496DF7E57C8}</Project>
+      <Name>NNIG_NeuralNetworkMath</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

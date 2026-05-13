@@ -1,0 +1,10 @@
+bin\Release\NNIG_NeuralNetworkMath.dll
+bin\Release\NNIG_NeuralNetworkMath.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\NNIG_NeuralNetworkMath.dll
+obj\Release\NNIG_NeuralNetworkMath.pdb
+bin\Debug\NNIG_NeuralNetworkMath.dll
+bin\Debug\NNIG_NeuralNetworkMath.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NNIG_NeuralNetworkMath.dll
+obj\Debug\NNIG_NeuralNetworkMath.pdb

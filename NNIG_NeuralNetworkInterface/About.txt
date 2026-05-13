@@ -1,0 +1,18 @@
+
+NNIG is an NN application tool developed at NNIG / INEB, Porto, Portugal.
+
+http://paginas.fe.up.pt/~nnig/
+
+Developers: Professor Marques de Sa
+	    Alexandra Oliveira
+	    Daniel Carrilho
+	    Adriano Correia
+	    Paulo Ricca
+
+Contact: aao@fe.up.pt
+
+Terms of use: NNIG is freely downloadable from the web.
+                       Recommended citation: NNIG - NNIG / PSI /INEB, Porto, Portugal.
+
+
+                                          © Copyright 2008
